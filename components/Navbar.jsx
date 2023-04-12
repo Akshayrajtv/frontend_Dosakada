@@ -15,7 +15,8 @@ const Navbar = () => {
       </div> </div>
       <div className={styles.item}>
         <ul className={styles.list}>
-          <li className={styles.listItem}> Home </li>
+          <li className={styles.listItem}> <Link href="/" ><div className={styles.text}>Home</div></Link> </li>
+          
           <li className={styles.listItem}>Products</li>
           <li className={styles.listItem}>Menu</li>
           <Image src="/img/dosa_logo.png" alt="" width={160} height={69} />
@@ -28,9 +29,11 @@ const Navbar = () => {
       </div>
       <div className={styles.item}>
         <div className={styles.cart}>
+        <Link href='/Cart'>
         <Image src="/img/cart_logo.png" alt="" width={30} height={30} />
         <div className={styles.counter}>2</div>
-
+</Link>
+       
         </div>
       </div>
 

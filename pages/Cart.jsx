@@ -14,7 +14,7 @@ const Cart = () => {
                     <th>Total</th>
                 </tr>
                 <tr>
-                    <td className={styles.td}>
+                    <td>
                         <div className={styles.imgContainer}>
                             <Image src="/img/dosa.jpeg" fill objectFit="contain" alt=""/>
                         </div>
